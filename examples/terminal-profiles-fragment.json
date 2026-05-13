@@ -1,0 +1,48 @@
+{
+  "_comment_": "Реальный фрагмент settings.json Windows Terminal — раздел 'profiles.list'. 4 ассистента системы Паломницы. GUIDs подменены на маркерные паттерны — заменить на свои уникальные. Вставлять в существующий settings.json (объединить с уже имеющимися профилями PowerShell/cmd/Azure).",
+
+  "profiles": {
+    "list": [
+      {
+        "guid": "{11111111-aaaa-bbbb-cccc-111111111111}",
+        "name": "Костик-ассистент",
+        "tabTitle": "Костик-ассистент",
+        "suppressApplicationTitle": true,
+        "commandline": "%SystemRoot%\\System32\\WindowsPowerShell\\v1.0\\powershell.exe -NoExit -Command \"claude -c\"",
+        "startingDirectory": "E:\\КЛОД\\костик",
+        "hidden": false,
+        "tabColor": "#CC3333"
+      },
+      {
+        "guid": "{22222222-aaaa-bbbb-cccc-222222222222}",
+        "name": "Архип-мастер",
+        "tabTitle": "Архип-мастер",
+        "suppressApplicationTitle": true,
+        "commandline": "%SystemRoot%\\System32\\WindowsPowerShell\\v1.0\\powershell.exe -NoExit -Command \"claude -c\"",
+        "startingDirectory": "E:\\КЛОД\\архип",
+        "hidden": false,
+        "tabColor": "#33AA33"
+      },
+      {
+        "guid": "{33333333-aaaa-bbbb-cccc-333333333333}",
+        "name": "Корней-писатель",
+        "tabTitle": "Корней-писатель",
+        "suppressApplicationTitle": true,
+        "commandline": "%SystemRoot%\\System32\\WindowsPowerShell\\v1.0\\powershell.exe -NoExit -Command \"claude -c\"",
+        "startingDirectory": "E:\\КЛОД\\Паломница",
+        "hidden": false,
+        "tabColor": "#4070CC"
+      },
+      {
+        "guid": "{44444444-aaaa-bbbb-cccc-444444444444}",
+        "name": "Глеб-менеджер",
+        "tabTitle": "Глеб-менеджер",
+        "suppressApplicationTitle": true,
+        "commandline": "%SystemRoot%\\System32\\WindowsPowerShell\\v1.0\\powershell.exe -NoExit -Command \"claude -c\"",
+        "startingDirectory": "E:\\КЛОД\\паломница-brand-manager",
+        "hidden": false,
+        "tabColor": "#7B3FCC"
+      }
+    ]
+  }
+}

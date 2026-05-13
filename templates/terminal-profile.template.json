@@ -1,0 +1,13 @@
+{
+  "_comment_": "Шаблон профиля Windows Terminal для ассистента Claude Code. Вставлять в массив 'profiles.list' в settings.json. Перед использованием — заменить ВСЕ значения <в-угловых-скобках>.",
+
+  "guid": "{<сгенерировать-уникальный-guid>}",
+  "name": "<Имя ассистента в выпадашке + (в title bar)>",
+  "tabTitle": "<Имя на вкладке>",
+  "suppressApplicationTitle": true,
+  "startingDirectory": "<полный путь к папке ассистента, например: E:\\КЛОД\\костик\\>",
+  "commandline": "claude -c",
+  "tabColor": "<#XXXXXX>",
+  "hidden": false,
+  "icon": "ms-appx:///ProfileIcons/{0caa0dad-35be-5f56-a8ff-afceeeaa6101}.png"
+}
